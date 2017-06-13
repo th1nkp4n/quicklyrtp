@@ -32,6 +32,10 @@ h6 {
 }
 .carousel {
   width:100%;
+  padding-top: 100px;
+}
+.carousel-inner {
+  overflow: visible;
 }
 hr.star-light,
 hr.star-primary {
