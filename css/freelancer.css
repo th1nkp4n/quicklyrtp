@@ -30,6 +30,9 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+.carousel {
+  width:100%;
+}
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -114,6 +117,7 @@ header .intro-text .skills {
 }
 .navbar-brand {
   margin-top: -10px;
+  padding: 0px 0px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
