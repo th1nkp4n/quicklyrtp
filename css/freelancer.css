@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  showing contents of a drink by hovering over it
  tabs inside the page showing compoentns of the menu
- special drinks all have descriptions (and )
+ special drinks all have descriptions (and zoomies?? )
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -29,22 +29,31 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
 .carousel {
   width:100%;
-  padding-top: 100px;
+  padding-top: 50px;
 }
-.carousel-inner {
+/*.carousel-inner {
   overflow: visible;
-}
+}*/
 .carousel-caption {
   text-align: right;
+  font-family: "Ubuntu","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-weight: 400;
 }
 #oneyear {
   color: #00245e;
+}
+#matcha {
+  text-align: left;
+}
+.carousel-control {
+  top: 50px;
 }
 hr.star-light,
 hr.star-primary {
@@ -114,6 +123,9 @@ header .intro-text .skills {
   .carousel {
     width:100%;
     padding-top: 100px;
+  }
+  .carousel-control {
+    top: 100px;
   }
   header .intro-text .name {
     font-size: 4.75em;
