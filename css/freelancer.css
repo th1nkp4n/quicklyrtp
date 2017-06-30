@@ -21,6 +21,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
+  color: inherit;
 }
 h1,
 h2,
@@ -256,10 +257,26 @@ section.success {
 #about {
   background: #f4bd16;
   color: #ffffff;
+  text-align: center;
 }
 #menu {
   background: #f75178;
   color: #ffffff;
+  padding-bottom: 0px;
+}
+.content-description {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #de3d63;
+}
+.content-section-a {
+    padding: 50px 0;
+    background-color: #e83862;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #de3d63;
+    border-bottom: 1px solid #de3d63;
 }
 #menu .menu-item {
   margin: 0 0 15px;
