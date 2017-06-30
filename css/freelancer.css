@@ -37,14 +37,15 @@ h6 {
   width:100%;
   padding-top: 50px;
 }
-/*.carousel-inner {
+.carousel-inner {
   overflow: visible;
-}*/
+}
 .carousel-caption {
   text-align: right;
   font-family: "Ubuntu","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-weight: 400;
+  font-size: 16px;
 }
 #oneyear {
   color: #00245e;
@@ -93,8 +94,9 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #f1bc41;
+  background: #5a9e35;
   color: white;
+  padding-bottom: -20px;
 }
 header .container {
   padding-top: 100px;
@@ -102,7 +104,6 @@ header .container {
 }
 header img {
   display: block;
-  margin: 0 auto 20px;
 }
 header .intro-text .name {
   display: block;
@@ -127,6 +128,9 @@ header .intro-text .skills {
   .carousel-control {
     top: 100px;
   }
+  .carousel-caption {
+
+  }
   header .intro-text .name {
     font-size: 4.75em;
   }
@@ -135,7 +139,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #71BF47;
+  background: #71BF47; /*navbar bg*/
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -161,7 +165,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #eedc17;
+  color: #eedc17;/*hover on tabs*/
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -169,7 +173,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #e0b124;
+  background: #e0b124;/*which section you're on*/
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
@@ -220,7 +224,7 @@ section.success {
   background: #18BC9C;
   color: white;
 }
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   section {
     padding: 75px 0;
   }
@@ -547,6 +551,6 @@ fieldset[disabled] .btn-success.active {
   outline: 0;
   transition: top 0.1s ease-in, background 0.5s linear;
 }
-div#maincontent {
+div#mycarousel {
   outline: none;
 }

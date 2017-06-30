@@ -6280,6 +6280,7 @@ button.close {
   .carousel-inner > .item.prev.right,
   .carousel-inner > .item.active {
     left: 0;
+    bottom: 100%;
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
   }
