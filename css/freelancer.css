@@ -254,11 +254,12 @@ section.success {
   }
 }
 #about {
-  background: #5a40b2;
+  background: #f4bd16;
   color: #ffffff;
 }
 #menu {
   background: #f75178;
+  color: #ffffff;
 }
 #menu .menu-item {
   margin: 0 0 15px;
@@ -372,7 +373,7 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #432f84;
 }
 .btn-outline {
   color: white;
