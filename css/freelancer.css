@@ -72,9 +72,9 @@ h3{
 .carousel-control {
   top: 50px;
 }
-hr {
+/*hr {
   padding: 10px;
-}
+}*/
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -254,29 +254,30 @@ section.success {
     padding-top: 75px;
   }
 }
-#about {
-  background: #f4bd16;
+#contact {
+  background: #f75178;
   color: #ffffff;
-  text-align: center;
 }
 #menu {
-  background: #f75178;
+  background: #f5b904;
   color: #ffffff;
   padding-bottom: 0px;
 }
+#menu img {
+  align-items: center;
+}
 .content-description {
   padding-bottom: 50px;
-  border-bottom: 1px solid #de3d63;
 }
 .content-section-a {
     padding: 50px 0;
-    background-color: #e83862;
+    background-color: #ffa300;
 }
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #de3d63;
-    border-bottom: 1px solid #de3d63;
+    /*border-top: 1px solid #de3d63;
+    border-bottom: 1px solid #de3d63;*/
 }
 #menu .menu-item {
   margin: 0 0 15px;
