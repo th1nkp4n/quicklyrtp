@@ -38,13 +38,8 @@ h3{
   text-transform: none;
 }
 .vertical_center {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-}
-.vcenter {
-  display: inline-block;
-    align-items: center;
-    float: none;
 }
 @media (max-width: 768px) {
   .carousel-caption h3{
@@ -52,6 +47,10 @@ h3{
   }
   .carousel-caption p {
     font-size: 10px;
+  }
+  .vertical_center {
+      display: inline;
+      align-items: initial;
   }
 }
 .carousel {
@@ -169,10 +168,13 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
-/*.navbar-brand {
-  margin-top: -10px;
+.navbar-brand {
   padding: 0px 0px;
-}*/
+}
+.navbar-brand img {
+  width: 150px;
+  height: 50px;
+}
 .navbar-custom {
   background: #7cd34e; /*navbar bg*/
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -242,6 +244,13 @@ header .intro-text .skills {
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
+  }
+  .up {
+    transform: translateY(-10px);
+  }
+  .navbar-brand img {
+    width: auto;
+    height: auto;
   }
 }
 section {
@@ -334,6 +343,7 @@ section.success {
 @media (min-width: 767px) {
   #menu .menu-item {
     margin: 0px;
+    padding: 0px;
   }
 }
 .floating-label-form-group {
@@ -404,7 +414,7 @@ footer .footer-below {
 }
 .btn-outline {
   color: white;
-  opacity: 0.7;
+  opacity: 0.85;
   font-size: 20px;
   background: transparent;
   transition: all 0.3s ease-in-out;
@@ -511,10 +521,13 @@ fieldset[disabled] .btn-success.active {
   line-height: 40px;
 }
 #fb {
-  background: #002ab6;
+  background: #3b5998;
 }
 #yelp {
   background: #f11c1c;
+}
+#twitter {
+  background: #00aced;
 }
 .scroll-top {
   position: fixed;
