@@ -52,9 +52,6 @@ h3{
       display: inline;
       align-items: initial;
   }
-  #navigation {
-    padding-left: 0px;
-  }
 }
 .carousel {
   width:100%;
@@ -179,6 +176,12 @@ header .intro-text .skills {
 .navbar-brand img {
   width: 150px;
   height: 50px;
+}
+body{
+  max-width:100%;
+}
+.navbar-default{
+  max-width:100%;
 }
 .navbar-custom {
   background: #7cd34e; /*navbar bg*/
