@@ -314,6 +314,10 @@ section.success {
     padding: 50px 0;
     background-color: #ff9200;
 }
+
+#menu .row {
+  margin: 0px;
+}
 #menu .menu-item {
   margin: 0px;
   padding:0;
@@ -341,14 +345,19 @@ section.success {
 }
 #menu .menu-item .menu-link .caption .caption-content {
 
-  position: absolute;
   width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
+  /*height: 20px;
   top: 50%;
   margin-top: -12px;
+  */
+  font-size: 20px;
+  text-align: center;
+  line-height: normal;
   color: white;
+}
+#menu .vertical_center {
+    display: inline-flex;
+    align-items: center;
 }
 #menu .menu-item .menu-link .caption .caption-content i {
   margin-top: -12px;
