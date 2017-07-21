@@ -121,7 +121,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #5a9e35;
+  background: #5a9e35; /*bg under navbar*/
   color: white;
   padding-bottom: -20px;
 }
@@ -269,7 +269,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #5bc0eb;
+  background: #5bc0eb;/*specials bg*/
   color: white;
 }
 @media (min-width: 767px) {
@@ -330,7 +330,7 @@ section.success {
   margin: 0 auto;
 }
 #menu .menu-item .menu-link .caption {
-  background: rgba(124, 211, 78, 0.9);
+  background: rgba(91, 192, 235, 0.9);/*hover color*/
   align-items: center;
   position: absolute;
   width: 100%;
