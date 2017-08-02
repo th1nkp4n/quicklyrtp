@@ -6,7 +6,7 @@
  tabs inside the page showing compoentns of the menu
  special drinks all have descriptions (and zoomies?? )
  */
-body {
+html, body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
