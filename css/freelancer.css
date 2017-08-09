@@ -9,6 +9,7 @@
 html, body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  background: #563ca7
 }
 p {
   font-size: 20px;
@@ -608,7 +609,7 @@ fieldset[disabled] .btn-success.active {
 .menu-modal .close-modal .lr {
   height: 75px;
   width: 1px;
-  margin-left: 35px;
+  /*margin-left: 35px;*/
   background-color: #2C3E50;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
