@@ -33,6 +33,10 @@ h6{
   text-transform: uppercase;
   font-weight: 700;
 }
+h2{
+  font-size: 27px;
+  text-transform: none;
+}
 h3{
   font-size: 23px;
   text-transform: none;
@@ -68,10 +72,11 @@ h3{
   bottom: 0px;
 }
 #oneyear {
-  color: #00245e;
+  /* color: #ffb7b7; */
+  text-align: left;
 }
 #six {
-  color: #8200a4;
+  text-align: right;
 }
 #matcha {
   text-align: left;
