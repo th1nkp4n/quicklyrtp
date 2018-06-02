@@ -41,6 +41,16 @@ h3{
   font-size: 23px;
   text-transform: none;
 }
+h5{
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: none;
+}
+h6{
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: none;
+}
 .vertical_center {
     display: inline-flex;
     align-items: center;
@@ -71,14 +81,14 @@ h3{
   font-weight: 400;
   bottom: 0px;
 }
-#oneyear {
+#one {
   /* color: #ffb7b7; */
-  text-align: left;
+  text-align: top-left;
 }
-#six {
+#two {
   text-align: right;
 }
-#matcha {
+#three {
   text-align: left;
 }
 .carousel-control {
