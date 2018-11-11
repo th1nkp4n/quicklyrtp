@@ -83,13 +83,14 @@ h6{
 }
 #one {
   /* color: #ffb7b7; */
-  text-align: top-left;
 }
 #two {
-  text-align: right;
+  text-align: left;
+
 }
 #three {
-  text-align: left;
+  text-align: right;
+  right:5%;
 }
 .carousel-control {
   top: 50px;
